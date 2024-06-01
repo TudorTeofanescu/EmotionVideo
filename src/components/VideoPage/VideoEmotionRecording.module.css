@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.videoContainer {
+  margin: 10px auto;
+  height: 50vh;
+}
+
+.videoContainer video {
+  max-height: 90%;
+}
+
+.recordingContainer {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 5vw;
+}
+
+.userVideoContainer video {
+  max-height: 30vh;
+}
+
+.emotionsContainer {
+  margin-left: 2vw;
+}
+
+.storeEmotionButton {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.storeEmotionButton:hover {
+  background-color: rgb(189, 139, 47);
+  color: black;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}

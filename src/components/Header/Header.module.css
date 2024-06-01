@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000000;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.logo {
+  height: 40px;
+}
+
+.camera-icon {
+  height: 30px;
+  cursor: pointer;
+}
